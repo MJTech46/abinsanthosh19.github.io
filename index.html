@@ -1,464 +1,175 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Abin Santhosh — Python Django Full Stack Developer</title>
-<meta name="description" content="Abin Santhosh is a freelance Python Django full stack developer in Lisbon, crafting efficient, scalable web applications. Available for select projects.">
-<meta name="author" content="Abin Santhosh">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abin's Portfolio</title>
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Abin Santhosh — Python Django Full Stack Developer">
-<meta property="og:description" content="Freelance Python Django full stack development for teams that care. Currently taking on select projects.">
-<meta property="og:image" content="img/hero.jpg">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Search Engine Optimization (SEO) tags -->
+    <meta name="description" content="Official portfolio of Abin Santhosh (MJTech46). Python Developer specializing in Django, REST APIs, AI applications, backend development, Linux and open-source projects."/>
+    <meta name="keywords" content="Abin Santhosh, MJTech46, Abin M Santhosh, MJ, MJ46, Manjaly, Python Developer,Django Developer,Backend Developer,Kerala Developer,IES College,Django REST Framework,Open Source,GitHub,Portfolio,AI Developer,Flask,Linux,Full Stack Developer"/>
+    <meta name="author" content="Abin Santhosh" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.mj46.in/" />
 
-<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
+    <!-- Open Graph (OG) tags -->
+    <meta property="og:title" content="Abin Santhosh - Portfolio" />
+    <meta property="og:description" content="Official portfolio of Abin Santhosh (MJTech46). Python Developer specializing in Django, REST APIs, AI applications, backend development, Linux and open-source projects." />
+    <meta property="og:image" content="https://www.mj46.in/og-image.png?v=03-08-2026" />
+    <meta property="og:url" content="https://www.mj46.in/" />
+    <meta property="og:type" content="website" />
 
-<a class="skip-link" href="#main">Skip to content</a>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/topbar.css" />
+    <link rel="stylesheet" href="css/chat.css" />
+    <link rel="stylesheet" href="css/input.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
-<!-- ============================================================ HEADER -->
-<header class="site-header" id="siteHeader">
-  <div class="wrap header-inner">
-    <a class="brand" href="#top" aria-label="Abin Santhosh — home">
-      <span class="mono" aria-hidden="true">AS</span>
-      <span>Abin&nbsp;Santhosh<small>Python Django Full Stack Developer</small></span>
-    </a>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css"
+    />
+  </head>
 
-    <nav class="nav" id="primaryNav" aria-label="Primary">
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#voices">Voices</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a class="btn2" href="#contact">
-        Hire me
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </nav>
+  <body>
+    <div class="app">
+      <!-- ================= Sidebar ================= -->
+      <aside class="sidebar">
+        <!-- Top -->
+        <div class="sidebar-top">
+          <button class="icon-btn menu-btn" aria-label="Toggle Sidebar">
+            ☰
+          </button>
 
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
-      <span></span>
-    </button>
-  </div>
-</header>
-
-<main id="main">
-  <span id="top"></span>
-
-  <!-- ============================================================ HERO -->
-  <section class="hero" aria-labelledby="hero-name">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <span class="hero-badge reveal"><span class="dot" aria-hidden="true"></span> Available for projects — Autumn 2026</span>
-        <h1 id="hero-name" class="reveal" data-delay="1">Abin<br><span class="accent">Santhosh.</span></h1>
-        <p class="role reveal" data-delay="2">Python Django Full Stack Developer — TCR, Kerala, India</p>
-        <p class="intro reveal" data-delay="2">I help teams build efficient, scalable web applications using Python and Django. Eight years, one obsession: clean, maintainable code.</p>
-
-        <div class="hero-cta reveal" data-delay="3">
-          <a class="btn2" href="#contact">
-            Start a project
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-          <a class="btn2 btn2--ghost" href="#work">View selected work</a>
+          <button class="new-chat-btn">
+            <span>+</span>
+            <span>New Chat</span>
+          </button>
         </div>
 
-        <ul class="socials reveal" data-delay="3" aria-label="Abin on social platforms">
-          <li><a href="mailto:abinsanthosh19@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
-          <li><a href="https://www.github.com/abinsanthosh19" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 00-3 18.5v-3c-2 .4-2.5-.9-2.7-1.6-.2-.5-.7-1.2-1.2-1.5-.4-.2-1-.7 0-.7.9 0 1.5.8 1.7 1.1 1 .1 1.7.8 2 1.4.1-.7.4-1.2.8-1.5-1.8-.2-3.7-.9-3.7-4.1 0-.9.3-1.7.8-2.3-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.4.9a8.5 8.5 0 014.4 0c1.7-1.1 2.4-.9 2.4-.9.5 1.1.2 1.9.1 2.1.5.6.8 1.4.8 2.3 0 3.2-1.9 3.9-3.7 4.1.4.3.8 1 .8 2v3A9.5 9.5 0 0012 2.5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></a></li>
-          <li><a href="https://www.linkedin.com/in/abinsanthosh19" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 10.5V17M8 7.6v.02M11.6 17v-3.6c0-1.4 1-2.4 2.3-2.4s2.1 1 2.1 2.4V17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></a></li>
-          <li><a href="https://www.instagram.com/abinsanthosh19" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg></a></li>
-        </ul>
-      </div>
+        <!-- Chat History -->
+        <div class="chat-history">
+          <h3>Today</h3>
 
-      <figure class="hero-figure reveal" data-delay="2">
-        <div class="frame">
-          <img src="img/hero.jpg" alt="Portrait of Abin Santhosh, freelance Python Django full stack developer, in natural light" width="460" height="575">
-        </div>
-        <div class="hero-chip" aria-hidden="true">
-          <span class="num">1</span>
-          <span class="lbl">years developing<br>web applications</span>
-        </div>
-      </figure>
-    </div>
-  </section>
+          <button class="history-item active">Abin's Portfolio</button>
 
-  <!-- ==================================================== TOOLS MARQUEE -->
-  <section class="tools-band" aria-label="Tools I work with">
-    <div class="wrap">
-      <p class="tools-label">The kit I reach for every day</p>
-    </div>
-    <div class="marquee">
-      <div class="marquee-track" id="marqueeTrack">
-        <!-- group A -->
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 4h5a4 4 0 014 4v3H9a3 3 0 01-3-3V8a4 4 0 014-4zM16 20h-5a4 4 0 01-4-4v-3h8a3 3 0 013 3v1a4 4 0 01-4 4z" stroke="currentColor" stroke-width="1.8"/></svg>Python</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.6"/></svg>Django</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Django REST</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><ellipse cx="12" cy="7" rx="6" ry="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M6 7v10c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V7" stroke="currentColor" stroke-width="1.8"/></svg>MongoDB</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><ellipse cx="12" cy="7" rx="6" ry="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M6 7v10c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V7" stroke="currentColor" stroke-width="1.8"/></svg>SQL</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l9 5v8l-9 5-9-5V8z" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8M8 10l4-2 4 2" stroke="currentColor" stroke-width="1.6"/></svg>Docker</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19h14M7 16V8l5-4 5 4v8" stroke="currentColor" stroke-width="1.8"/></svg>Linux</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4l8 4v8l-8 4-8-4V8z" stroke="currentColor" stroke-width="1.8"/><path d="M8 10l4 2 4-2" stroke="currentColor" stroke-width="1.6"/></svg>Git & GitHub</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Postman</span>
-        <!-- group B (duplicate for seamless loop) -->
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 4h5a4 4 0 014 4v3H9a3 3 0 01-3-3V8a4 4 0 014-4zM16 20h-5a4 4 0 01-4-4v-3h8a3 3 0 013 3v1a4 4 0 01-4 4z" stroke="currentColor" stroke-width="1.8"/></svg>Python</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.6"/></svg>Django</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Django REST</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><ellipse cx="12" cy="7" rx="6" ry="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M6 7v10c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V7" stroke="currentColor" stroke-width="1.8"/></svg>MongoDB</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><ellipse cx="12" cy="7" rx="6" ry="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M6 7v10c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V7" stroke="currentColor" stroke-width="1.8"/></svg>SQL</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l9 5v8l-9 5-9-5V8z" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8M8 10l4-2 4 2" stroke="currentColor" stroke-width="1.6"/></svg>Docker</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19h14M7 16V8l5-4 5 4v8" stroke="currentColor" stroke-width="1.8"/></svg>Linux</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4l8 4v8l-8 4-8-4V8z" stroke="currentColor" stroke-width="1.8"/><path d="M8 10l4 2 4-2" stroke="currentColor" stroke-width="1.6"/></svg>Git & GitHub</span>
-        <span class="tool-chip"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Postman</span>
-      </div>
-    </div>
-  </section>
+          <button class="history-item">HTML Project</button>
 
-  <!-- =========================================================== ABOUT -->
-  <section class="section" id="about" aria-labelledby="about-h">
-    <div class="wrap about-grid">
-      <figure class="about-figure reveal">
-        <img src="img/about.jpg" alt="Nadia at her studio workspace with a laptop and printed layouts" width="480" height="600">
-        <span class="tag">Studio in<br>Alfama, Lisbon</span>
-      </figure>
-      <div class="about-body">
-        <span class="eyebrow">A little about me</span>
-        <h2 id="about-h" class="reveal">I build reliable backend systems and scalable web applications that power seamless user experiences.</h2>
-        <p class="lead reveal" data-delay="1">With internship experience in Python and Django full-stack development, I've worked on RESTful APIs, database-driven applications, and modern web solutions. I enjoy turning complex problems into clean, maintainable code while focusing on performance, security, and scalability.</p>
-        <!-- <p class="reveal" data-delay="1">I'm particularly interested in backend engineering, API development, and designing systems that are both efficient and easy to extend. Whether it's developing a Django application, integrating databases, or building secure authentication flows, I enjoy creating software that solves real-world problems.</p> -->
-        <p class="reveal" data-delay="2">Outside of coding, I contribute to open-source projects, explore new technologies, and continuously expand my knowledge through hands-on development. I'm currently seeking opportunities where I can grow as a backend developer while contributing to meaningful products.</p>
+          <button class="history-item">CSS Grid Questions</button>
 
-        <div class="stats reveal" data-delay="2">
-          <div class="stat">
-            <div class="num" data-count="1"><span class="val">0</span></div>
-            <div class="lbl">Years Experience</div>
-          </div>
-          <div class="stat">
-            <div class="num" data-count="2"><span class="val">0</span></div>
-            <div class="lbl">Professional Internships</div>
-          </div>
-          <div class="stat">
-            <div class="num" data-count="20"><span class="val">0</span><span class="suffix">+</span></div>
-            <div class="lbl">Projects shipped</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+          <button class="history-item">JavaScript Notes</button>
 
-  <!-- ======================================================== SERVICES -->
-  <section class="section section--forest on-dark" id="services" aria-labelledby="svc-h">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="eyebrow">What I do</span>
-      <h2 id="svc-h">The areas where I create the most impact</h2>
-      <p>Focused on building scalable backend systems, secure APIs, and modern web applications while continuously growing as a software engineer.</p>
-    </div>
+          <h3>Yesterday</h3>
 
-    <div class="svc-grid">
-      <article class="svc-card reveal" data-delay="2">
-        <span class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/></svg></span>
-        <h3>Python Development</h3>
-        <p>Creating efficient applications and automation tools with Python while following clean coding practices and scalable software architecture.</p>
-        <span class="num-tag">01 — Python</span>
-      </article>
+          <button class="history-item">React Roadmap</button>
 
-      <article class="svc-card reveal" data-delay="1">
-        <span class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 3.5v17M3.5 12h17" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg></span>
-        <h3>REST API Development</h3>
-        <p>Designing robust RESTful APIs with Django REST Framework, authentication, database integration and efficient communication between services.</p>
-        <span class="num-tag">02 — APIs</span>
-      </article>
-
-      <article class="svc-card reveal" data-delay="2">
-        <span class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5" stroke="currentColor" stroke-width="1.8"/></svg></span>
-        <h3>Full Stack Development</h3>
-        <p>Building responsive web applications with Django, HTML, CSS, JavaScript and Bootstrap from database design to polished user interfaces.</p>
-        <span class="num-tag">03 — Full Stack</span>
-      </article>
-
-      <article class="svc-card reveal" data-delay="3">
-        <span class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 16l5-6 4 4 3-4 4 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="7" r="2" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/></svg></span>
-        <h3>Technical Problem Solving</h3>
-        <p>Analyzing engineering challenges and developing practical, efficient software solutions using modern development practices and clean architecture.</p>
-        <span class="num-tag">04 — Engineering</span>
-      </article>
-    </div>
-  </div>
-</section>
-
-  <!-- ============================================================ WORK -->
-  <section class="section section--paper2" id="work" aria-labelledby="work-h">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <span class="eyebrow">Selected work</span>
-        <h2 id="work-h">A few things I'm proud of</h2>
-        <p>Six recent projects across product, brand and editorial. Hover any tile for a closer look.</p>
-      </div>
-
-      <div class="filter-bar reveal" role="tablist" aria-label="Filter work by category">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="product">Product</button>
-        <button class="filter-btn" data-filter="brand">Brand</button>
-        <button class="filter-btn" data-filter="editorial">Editorial</button>
-      </div>
-
-      <div class="work-grid">
-        <article class="work-card reveal" data-cat="product">
-          <img src="img/p1.jpg" alt="Halo fintech app — dashboard redesign" width="800" height="600">
-          <div class="work-overlay">
-            <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <span class="cat">Product · UX/UI</span>
-            <h3>Halo — Fintech App</h3>
-          </div>
-          <a href="#work" aria-label="Halo fintech app case study"></a>
-        </article>
-
-        <article class="work-card reveal" data-cat="brand" data-delay="1">
-          <img src="img/p4.jpg" alt="Terra sustainability brand identity" width="800" height="600">
-          <div class="work-overlay">
-            <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <span class="cat">Brand · Identity</span>
-            <h3>Terra — Eco Label</h3>
-          </div>
-          <a href="#work" aria-label="Terra eco label case study"></a>
-        </article>
-
-        <article class="work-card reveal" data-cat="product" data-delay="2">
-          <img src="img/p3.jpg" alt="Beacon SaaS marketing website design" width="800" height="600">
-          <div class="work-overlay">
-            <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <span class="cat">Product · Web</span>
-            <h3>Beacon — SaaS Site</h3>
-          </div>
-          <a href="#work" aria-label="Beacon SaaS site case study"></a>
-        </article>
-
-        <article class="work-card reveal" data-cat="editorial">
-          <img src="img/p6.jpg" alt="Field Notes — a self-published photography zine" width="800" height="600">
-          <div class="work-overlay">
-            <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <span class="cat">Editorial · Print</span>
-            <h3>Field Notes — Zine</h3>
-          </div>
-          <a href="#work" aria-label="Field Notes zine case study"></a>
-        </article>
-
-        <article class="work-card reveal" data-cat="product" data-delay="1">
-          <img src="img/p5.jpg" alt="Pace running app — mobile interface design" width="800" height="600">
-          <div class="work-overlay">
-            <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <span class="cat">Product · Mobile</span>
-            <h3>Pace — Running App</h3>
-          </div>
-          <a href="#work" aria-label="Pace running app case study"></a>
-        </article>
-
-        <article class="work-card reveal" data-cat="editorial" data-delay="2">
-          <img src="img/p2.jpg" alt="Muse — an editorial design system on a workspace" width="800" height="600">
-          <div class="work-overlay">
-            <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <span class="cat">Editorial · System</span>
-            <h3>Muse — Magazine OS</h3>
-          </div>
-          <a href="#work" aria-label="Muse magazine design system case study"></a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================================================== TESTIMONIALS -->
-  <section class="section section--forest on-dark" id="voices" aria-labelledby="voices-h">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <span class="eyebrow">Kind words</span>
-        <h2 id="voices-h">What it's like to work with me</h2>
-        <p>Honest notes from founders and design leads I've shipped alongside.</p>
-      </div>
-
-      <div class="tst-wrap reveal">
-  <div class="tst-track" id="tstTrack" tabindex="0" aria-label="Testimonials, scrollable">
-    <figure class="tst-card">
-      <div class="quote-mark" aria-hidden="true">&ldquo;</div>
-      <blockquote>Abin consistently demonstrated a strong willingness to learn and adapt throughout his internship. He approached backend development with curiosity, delivered reliable Django solutions, and collaborated effectively with the team. His dedication and problem-solving mindset make him a valuable addition to any engineering team.</blockquote>
-      <figcaption class="tst-person">
-        <img src="img/t1.jpg" alt="Deepu Das">
-        <span>
-          <span class="who">Deepu Das</span>
-          <span class="role">CEO &amp; Founder, Zecser Business LLP</span>
-        </span>
-      </figcaption>
-    </figure>
-
-    <figure class="tst-card">
-      <div class="quote-mark" aria-hidden="true">&ldquo;</div>
-      <blockquote>During his internship at Fab Studioz, Abin contributed to multiple Django projects with professionalism and enthusiasm. He was quick to understand new concepts, worked well within a collaborative environment, and consistently delivered quality work across both frontend and backend development.</blockquote>
-      <figcaption class="tst-person">
-        <img src="img/t2.jpg" alt="Rajasree Sethu Madhavan">
-        <span>
-          <span class="who">Rajasree Sethu Madhavan</span>
-          <span class="role">Director, Fab Studioz</span>
-        </span>
-      </figcaption>
-    </figure>
-
-    <figure class="tst-card">
-      <div class="quote-mark" aria-hidden="true">&ldquo;</div>
-      <blockquote>Abin has consistently shown dedication to learning beyond the classroom through internships, personal projects, and continuous skill development. His commitment to applying academic knowledge in real-world software development reflects both initiative and strong technical potential.</blockquote>
-      <figcaption class="tst-person">
-        <img src="img/t3.jpg" alt="Remya P C">
-        <span>
-          <span class="who">Remya P C</span>
-          <span class="role">Head of Department, IES College of Engineering</span>
-        </span>
-      </figcaption>
-    </figure>
-  </div>
-
-  <div class="tst-nav">
-    <button class="tst-btn" id="tstPrev" aria-label="Previous testimonial">
-      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
-    <button class="tst-btn" id="tstNext" aria-label="Next testimonial">
-      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
-    <div class="tst-dots" id="tstDots" aria-hidden="true"></div>
-  </div>
-</div>
-    </div>
-  </section>
-
-  <!-- ========================================================= CONTACT -->
-  <section class="section" id="contact" aria-labelledby="contact-h">
-    <div class="wrap contact-grid">
-      <div class="contact-intro reveal">
-        <span class="eyebrow">Let's talk</span>
-        <h2 id="contact-h">Have a project in mind? I'd love to hear it.</h2>
-        <p>I take on a small number of projects each quarter so I can give each one real attention. Tell me a little about what you're building and I'll reply within two working days.</p>
-
-        <ul class="contact-list">
-          <li>
-            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <span><small>Email</small><a href="mailto:abinsanthosh19@gmail.com">abinsanthosh19@gmail.com</a></span>
-          </li>
-          <!-- <li>
-            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
-            <span><small>Phone</small><a href="tel:+919xxxxxx2">+91 9xxxx xxx2</a></span>
-          </li> -->
-          <li>
-            <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21c5-4.5 7.5-8 7.5-11a7.5 7.5 0 0 0-15 0c0 3 2.5 6.5 7.5 11Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6" stroke="currentColor" stroke-width="1.8"/></svg></span>
-            <span><small>Based in</small>Kerala, India — working worldwide</span>
-          </li>
-        </ul>
-
-        <!-- <ul class="socials" aria-label="Nadia on social platforms">
-          <li><a href="#" aria-label="Dribbble"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.5" stroke="currentColor" stroke-width="1.8"/><path d="M5 8c4.5 2 9 2.5 13.5 1M8.5 4.5C12 8 14 13 14.5 19.5M18.8 14.5c-5-1.5-9.5-.3-12.6 3.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></a></li>
-          <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg></a></li>
-          <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 10.5V17M8 7.6v.02M11.6 17v-3.6c0-1.4 1-2.4 2.3-2.4s2.1 1 2.1 2.4V17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></a></li>
-        </ul> -->
-      </div>
-
-      <form class="form-card reveal"
-        id="contactForm"
-        action="https://formspree.io/f/xbjwyzwq"
-        method="POST">
-
-        <div class="field two">
-          <div>
-            <label for="cf-name">Name <span class="req">*</span></label>
-            <input
-              type="text"
-              id="cf-name"
-              name="name"
-              autocomplete="name"
-              required>
-          </div>
-
-          <div>
-            <label for="cf-email">Email <span class="req">*</span></label>
-            <input
-              type="email"
-              id="cf-email"
-              name="email"
-              autocomplete="email"
-              required>
-          </div>
+          <button class="history-item">Python Interview</button>
         </div>
 
-        <div class="field">
-          <label for="cf-subject">Reason for contacting</label>
-          <select id="cf-subject" name="subject">
-            <option value="Job Opportunity">Job Opportunity</option>
-            <option value="Internship">Internship</option>
-            <option value="Project Collaboration">Project Collaboration</option>
-            <option value="Networking">Networking</option>
-            <option value="Other">Other</option>
-          </select>
+        <!-- Bottom -->
+        <div class="sidebar-bottom">
+          <button class="sidebar-item">Settings</button>
+
+          <button class="sidebar-item">Help</button>
+
+          <button class="profile-btn">
+            <div class="avatar">M</div>
+
+            <div class="profile-info">
+              <strong>MJ Tech</strong>
+              <small>Free Plan</small>
+            </div>
+          </button>
         </div>
+      </aside>
 
-        <div class="field">
-          <label for="cf-message">Message <span class="req">*</span></label>
-          <textarea
-            id="cf-message"
-            name="message"
-            placeholder="Tell me about the opportunity..."
-            required></textarea>
-        </div>
+      <!-- ================= Main ================= -->
 
-        <button type="submit" class="btn2 form-submit">
-          Send Message
-        </button>
+      <main class="main-content">
+        <!-- Header -->
+        <header class="topbar">
+          <div class="topbar-left">
+            <button class="mobile-menu">☰</button>
 
-      </form>
+            <button class="model-selector">
+              <span>ChatMJT</span>
+
+              <i data-lucide="chevron-down" class="model-chevron"></i>
+            </button>
+          </div>
+
+          <div class="topbar-right">
+            <span class="plan-badge"> Free </span>
+
+            <button class="header-btn" title="Notifications">
+              <i data-lucide="bell"></i>
+            </button>
+
+            <button class="header-btn" title="Settings">
+              <i data-lucide="settings"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Conversation -->
+        <section class="chat-area">
+          <!-- Welcome Screen -->
+          <div class="welcome">
+            <h1>What can I help with?</h1>
+          </div>
+
+          <!-- Messages -->
+          <div class="messages"></div>
+        </section>
+
+        <!-- Input -->
+        <footer class="chat-input-container">
+          <form class="chat-form">
+            <button type="button" class="attach-btn">+</button>
+
+            <textarea rows="1" placeholder="Ask anything..."></textarea>
+
+            <button type="submit" class="send-btn">↑</button>
+          </form>
+
+          <p class="disclaimer">
+            Rule-Based-AI can make mistakes. Check important info.
+          </p>
+        </footer>
+      </main>
     </div>
-  </section>
-</main>
 
-<!-- ========================================================== FOOTER -->
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <a class="brand" href="#top" aria-label="Abin Santhosh — home">
-          <span class="mono" aria-hidden="true">AS</span>
-          <span>Abin&nbsp;Santhosh<small>Python Django Full Stack Developer</small></span>
-        </a>
-        <p>Python Django Full Stack Developments in Kerala, helping teams ship calm, useful things. Currently booking projects for 2026.</p>
-        <ul class="socials reveal" data-delay="3" aria-label="Abin on social platforms">
-          <li><a href="mailto:abinsanthosh19@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
-          <li><a href="https://www.github.com/abinsanthosh19" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 00-3 18.5v-3c-2 .4-2.5-.9-2.7-1.6-.2-.5-.7-1.2-1.2-1.5-.4-.2-1-.7 0-.7.9 0 1.5.8 1.7 1.1 1 .1 1.7.8 2 1.4.1-.7.4-1.2.8-1.5-1.8-.2-3.7-.9-3.7-4.1 0-.9.3-1.7.8-2.3-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.4.9a8.5 8.5 0 014.4 0c1.7-1.1 2.4-.9 2.4-.9.5 1.1.2 1.9.1 2.1.5.6.8 1.4.8 2.3 0 3.2-1.9 3.9-3.7 4.1.4.3.8 1 .8 2v3A9.5 9.5 0 0012 2.5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></a></li>
-          <li><a href="https://www.linkedin.com/in/abinsanthosh19" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 10.5V17M8 7.6v.02M11.6 17v-3.6c0-1.4 1-2.4 2.3-2.4s2.1 1 2.1 2.4V17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></a></li>
-          <li><a href="https://www.instagram.com/abinsanthosh19" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg></a></li>
-        </ul>
-      </div>
+    <!-- JavaScript -->
 
-      <nav class="footer-col" aria-label="Site">
-        <h4>Explore</h4>
-        <a href="#about">About</a>
-        <a href="#work">Selected work</a>
-        <a href="#services">Services</a>
-        <a href="#voices">Testimonials</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <!-- External Library -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-      <nav class="footer-col" aria-label="Services">
-        <h4>Services</h4>
-        <a href="#services">Python Development</a>
-        <a href="#services">REST API Development</a>
-        <a href="#services">Full Stack Development</a>
-        <a href="#services">Technical Problem Solving</a>
-      </nav>
-    </div>
+    <!-- Highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
 
-    <div class="footer-bottom">
-      <p>© 2026 Abin Santhosh. All rights reserved.</p>
-      <!-- <p>Free template by <a href="https://uicookies.com/">uiCookies</a>.</p> -->
-    </div>
-  </div>
-</footer>
+    <!-- markdown JavaScript -->
+    <script src="js/markdown.js"></script>
+    <script src="js/markdown-loader.js"></script>
+    <script src="js/knowledge-base.js"></script>
 
-<script src="js/vendor/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
+    <!-- UI JavaScript -->
+    <script src="js/markdown.js"></script>
+    <script src="js/codeblock.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/textarea.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

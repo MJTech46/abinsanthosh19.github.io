@@ -1,0 +1,257 @@
+/* ==========================================
+   CHAT INPUT CONTAINER
+========================================== */
+
+.chat-input-container {
+
+    padding: 20px;
+
+    background: var(--bg);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+/* ==========================================
+   FORM
+========================================== */
+
+.chat-form {
+
+    width: min(100%, 820px);
+
+    background: #2F2F2F;
+
+    border: 1px solid #404040;
+
+    border-radius: 28px;
+
+    padding: 10px 14px;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    gap: 12px;
+
+    transition:
+        border-color .2s,
+        box-shadow .2s;
+    
+    align-items: center;
+
+}
+
+.chat-form:focus-within {
+
+    border-color: #5A5A5A;
+
+    box-shadow: 0 0 0 3px rgba(255,255,255,.04);
+
+}
+
+
+/* ==========================================
+   TEXTAREA
+========================================== */
+
+.chat-form textarea {
+
+    flex: 1;
+
+    min-height: 24px;
+
+    max-height: 220px;
+
+    overflow-y: auto;
+
+    resize: none;
+
+    background: transparent;
+
+    color: var(--text);
+
+    font-size: 1rem;
+
+    line-height: 1.5;
+
+    padding: 10px 0;
+
+}
+
+.chat-form textarea::placeholder {
+
+    color: #A5A5A5;
+
+}
+
+
+/* ==========================================
+   COMMON BUTTON STYLE
+========================================== */
+
+.attach-btn,
+.send-btn {
+
+    width: 38px;
+
+    height: 38px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    transition:
+        background .2s,
+        transform .15s;
+
+}
+
+
+/* ==========================================
+   ATTACH BUTTON
+========================================== */
+
+.attach-btn {
+
+    color: #BDBDBD;
+
+}
+
+.attach-btn:hover {
+
+    background: #404040;
+
+    color: white;
+
+}
+
+
+/* ==========================================
+   SEND BUTTON
+========================================== */
+
+.send-btn {
+
+    background: white;
+
+    color: black;
+
+    font-weight: 700;
+
+}
+
+.send-btn:hover {
+
+    transform: scale(1.05);
+
+}
+
+.send-btn:active {
+
+    transform: scale(.94);
+
+}
+
+
+/* ==========================================
+   DISABLED SEND
+========================================== */
+
+.send-btn:disabled {
+
+    background: #555;
+
+    color: #999;
+
+    cursor: default;
+
+    transform: none;
+
+}
+
+
+/* ==========================================
+   DISCLAIMER
+========================================== */
+
+.disclaimer {
+
+    margin-bottom: 12px;
+
+    text-align: center;
+
+    font-size: .74rem;
+
+    color: #888;
+
+    user-select: none;
+
+}
+
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+.chat-form textarea::-webkit-scrollbar {
+
+    width: 6px;
+
+}
+
+.chat-form textarea::-webkit-scrollbar-thumb {
+
+    background: #505050;
+
+    border-radius: 10px;
+
+}
+
+.chat-form textarea::-webkit-scrollbar-track {
+
+    background: transparent;
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .chat-input-container{
+
+        padding: 14px;
+
+    }
+
+    .chat-form{
+
+        border-radius: 22px;
+
+        padding: 20px 10px;
+
+    }
+
+    .attach-btn,
+    .send-btn{
+
+        width: 34px;
+
+        height: 34px;
+
+    }
+
+}
