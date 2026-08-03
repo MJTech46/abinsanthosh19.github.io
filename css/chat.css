@@ -1,0 +1,605 @@
+/* ==========================================
+   CHAT AREA
+========================================== */
+
+.chat-area {
+
+    flex: 1;
+
+    overflow-y: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    scroll-behavior: smooth;
+
+}
+
+
+/* ==========================================
+   MESSAGE LIST
+========================================== */
+
+.messages {
+
+    width:100%;
+
+    margin: 0 auto;
+
+    padding: 48px 24px 120px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 32px;
+
+}
+
+
+/* ==========================================
+   MESSAGE
+========================================== */
+
+.message {
+
+    width: 100%;
+
+    display: flex;
+
+    animation: messageFade .25s ease;
+
+}
+
+
+/* ==========================================
+   USER MESSAGE
+========================================== */
+
+.message.user {
+
+    justify-content: flex-end;
+
+}
+
+.user .message-content {
+
+    max-width: 75%;
+
+    background: #303030;
+
+    border-radius: 24px;
+
+    padding: 14px 18px;
+
+    line-height: 1.7;
+
+    font-size: .97rem;
+
+    word-wrap: break-word;
+
+}
+
+
+/* ==========================================
+   ASSISTANT MESSAGE
+========================================== */
+
+.message.assistant {
+
+    justify-content: space-around;
+
+}
+
+.assistant .message-content {
+
+    width: 100%;
+
+    line-height: 1.8;
+
+    font-size: 1rem;
+
+    color: var(--text);
+
+}
+
+
+/* ==========================================
+   PARAGRAPHS
+========================================== */
+
+.message-content p {
+
+    margin-bottom: 16px;
+
+}
+
+.message-content p:last-child {
+
+    margin-bottom: 0;
+
+}
+
+
+/* ==========================================
+   HEADINGS
+========================================== */
+
+.message-content h1,
+.message-content h2,
+.message-content h3,
+.message-content h4 {
+
+    margin: 28px 0 16px;
+
+    font-weight: 600;
+
+    line-height: 1.3;
+
+}
+
+.message-content h1 {
+
+    font-size: 2rem;
+
+}
+
+.message-content h2 {
+
+    font-size: 1.6rem;
+
+}
+
+.message-content h3 {
+
+    font-size: 1.3rem;
+
+}
+
+
+/* ==========================================
+   LINKS
+========================================== */
+
+.message-content a {
+
+    color: #7bb8ff;
+
+    text-decoration: none;
+
+}
+
+.message-content a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* ==========================================
+   LISTS
+========================================== */
+
+.message-content ul,
+.message-content ol {
+
+    padding-left: 24px;
+
+    margin: 14px 0;
+
+}
+
+.message-content li {
+
+    margin: 8px 0;
+
+}
+
+
+/* ==========================================
+   INLINE CODE
+========================================== */
+
+.message-content code {
+
+    background: #303030;
+
+    border-radius: 6px;
+
+    padding: 2px 6px;
+
+    font-size: .92rem;
+
+    font-family: Consolas, monospace;
+
+}
+
+
+/* ==========================================
+   CODE BLOCK
+========================================== */
+
+.message-content pre {
+
+    position: relative;
+
+    background: #1e1e1e;
+
+    border: 1px solid #3d3d3d;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    margin: 20px 0;
+
+}
+
+.message-content pre code {
+
+    display: block;
+
+    overflow-x: auto;
+
+    padding: 18px;
+
+    font-size: .9rem;
+
+    line-height: 1.7;
+
+    font-family:
+        "JetBrains Mono",
+        Consolas,
+        monospace;
+
+}
+
+
+/* ==========================================
+   BLOCKQUOTE
+========================================== */
+
+.message-content blockquote {
+
+    border-left: 4px solid #555;
+
+    padding-left: 18px;
+
+    margin: 18px 0;
+
+    color: #bbbbbb;
+
+}
+
+
+/* ==========================================
+   TABLE
+========================================== */
+
+.message-content table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 20px 0;
+
+}
+
+.message-content th,
+.message-content td {
+
+    border: 1px solid #3b3b3b;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+.message-content th {
+
+    background: #303030;
+
+}
+
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.message-content img {
+
+    max-width: 100%;
+
+    border-radius: 12px;
+
+    margin: 16px 0;
+
+}
+
+
+/* ==========================================
+   HORIZONTAL RULE
+========================================== */
+
+.message-content hr {
+
+    border: none;
+
+    height: 1px;
+
+    background: #444;
+
+    margin: 28px 0;
+
+}
+
+
+/* ==========================================
+   THINKING DOTS
+========================================== */
+
+.typing {
+
+    display: flex;
+
+    gap: 6px;
+
+    padding: 10px 0;
+
+}
+
+.typing span {
+
+    width: 8px;
+
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #8d8d8d;
+
+    animation: bounce 1.2s infinite;
+
+}
+
+.typing span:nth-child(2) {
+
+    animation-delay: .2s;
+
+}
+
+.typing span:nth-child(3) {
+
+    animation-delay: .4s;
+
+}
+
+
+/* ==========================================
+   COPY BUTTON
+========================================== */
+
+.code-toolbar {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+}
+
+.copy-btn {
+
+    padding: 6px 12px;
+
+    border-radius: 8px;
+
+    background: #303030;
+
+    color: #dcdcdc;
+
+    font-size: .8rem;
+
+    transition: .2s;
+
+}
+
+.copy-btn:hover {
+
+    background: #444;
+
+}
+
+
+/* ==========================================
+   WELCOME
+========================================== */
+
+.welcome {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.welcome h1 {
+
+    font-size: clamp(2rem,4vw,3rem);
+
+    font-weight: 500;
+
+    color: #ececec;
+
+}
+
+
+/* ==========================================
+   ANIMATIONS
+========================================== */
+
+@keyframes messageFade {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(10px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+@keyframes bounce {
+
+    0%,80%,100% {
+
+        transform: scale(.5);
+
+        opacity: .5;
+
+    }
+
+    40% {
+
+        transform: scale(1);
+
+        opacity: 1;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .messages{
+        margin: 50px 0 0 0;
+
+        padding: 24px 16px 100px;
+
+        gap: 24px;
+
+    }
+
+    .user .message-content{
+
+        max-width: 90%;
+
+    }
+
+    .assistant .message-content{
+
+        font-size: .95rem;
+
+        max-width: 100%;
+
+    }
+
+}
+
+/* ==========================================
+   CODE BLOCK
+========================================== */
+
+.code-block {
+
+    margin: 20px 0;
+
+    border: 1px solid #3a3a3a;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    background: #1b1b1b;
+
+}
+
+.code-toolbar {
+
+    height: 42px;
+
+    padding: 0 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background: #2b2b2b;
+
+    border-bottom: 1px solid #3d3d3d;
+
+}
+
+.code-language {
+
+    color: #bdbdbd;
+
+    font-size: .82rem;
+
+    text-transform: capitalize;
+
+}
+
+.copy-btn {
+
+    background: transparent;
+
+    border: none;
+
+    color: #d5d5d5;
+
+    cursor: pointer;
+
+    font-size: .82rem;
+
+    padding: 6px 10px;
+
+    border-radius: 8px;
+
+    transition: .2s;
+
+}
+
+.copy-btn:hover {
+
+    background: #404040;
+
+}
+
+.code-block pre {
+
+    margin: 0 !important;
+
+    border: none !important;
+
+    border-radius: 0 !important;
+
+}
+
+.code-block pre code {
+
+    padding: 18px !important;
+
+}

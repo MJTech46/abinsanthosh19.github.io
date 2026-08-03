@@ -1,0 +1,233 @@
+/* ==========================================
+   LARGE TABLETS
+========================================== */
+
+@media (max-width:1100px){
+
+    :root{
+
+        --sidebar-width:240px;
+
+    }
+
+    .messages{
+
+        width:100%;
+
+        max-width:760px;
+
+    }
+
+}
+
+
+/* ==========================================
+   TABLETS
+========================================== */
+
+@media (max-width:900px){
+
+    .sidebar{
+
+        position:fixed;
+
+        left:0;
+
+        top:0;
+
+        bottom:0;
+
+        transform:translateX(-100%);
+
+        z-index:1000;
+
+        box-shadow:0 0 40px rgba(0,0,0,.4);
+
+    }
+
+    .sidebar.open{
+
+        transform:translateX(0);
+
+    }
+
+    .mobile-menu{
+
+        display:flex;
+
+    }
+
+    .messages{
+
+        padding:32px 20px 120px;
+
+    }
+
+}
+
+
+/* ==========================================
+   OVERLAY
+========================================== */
+
+.sidebar-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.25s;
+
+    z-index:999;
+
+}
+
+.sidebar-overlay.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .topbar{
+
+        padding:0 14px;
+
+        height:56px;
+
+    }
+
+    .chat-area{
+
+        overflow-x:hidden;
+
+    }
+
+    .messages{
+
+        padding:24px 16px 110px;
+
+        gap:24px;
+
+    }
+
+    .user .message-content{
+
+        max-width:90%;
+
+    }
+
+    .assistant .message-content{
+
+        font-size:.95rem;
+
+    }
+
+    .welcome h1{
+
+        font-size:2rem;
+
+        text-align:center;
+
+        padding:0 20px;
+
+    }
+
+    .chat-input-container{
+
+        padding:14px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .topbar{
+
+        padding:0 10px;
+
+    }
+
+    .messages{
+
+        padding:20px 12px 110px;
+
+    }
+
+    .chat-form{
+
+        border-radius:22px;
+
+        padding:10px;
+
+    }
+
+    .attach-btn,
+    .send-btn{
+
+        width:34px;
+
+        height:34px;
+
+    }
+
+    .model-selector{
+
+        font-size:.9rem;
+
+    }
+
+    .history-item{
+
+        font-size:.85rem;
+
+    }
+
+}
+
+
+/* ==========================================
+   VERY SMALL DEVICES
+========================================== */
+
+@media (max-width:360px){
+
+    .messages{
+
+        padding:16px 10px 100px;
+
+    }
+
+    .welcome h1{
+
+        font-size:1.6rem;
+
+    }
+
+    .chat-form textarea{
+
+        font-size:.95rem;
+
+    }
+
+}

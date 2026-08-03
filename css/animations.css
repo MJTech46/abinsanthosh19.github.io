@@ -1,0 +1,332 @@
+/* ==========================================
+   GLOBAL TRANSITIONS
+========================================== */
+
+* {
+    transition:
+        background-color .18s ease,
+        color .18s ease,
+        border-color .18s ease;
+}
+
+
+/* ==========================================
+   BUTTON HOVER
+========================================== */
+
+button {
+
+    transition:
+        transform .18s ease,
+        background-color .18s ease,
+        color .18s ease,
+        opacity .18s ease;
+
+}
+
+button:hover {
+
+    transform: translateY(-1px);
+
+}
+
+button:active {
+
+    transform: scale(.96);
+
+}
+
+
+/* ==========================================
+   MESSAGE APPEAR
+========================================== */
+
+.message {
+
+    animation: messageIn .25s ease forwards;
+
+}
+
+@keyframes messageIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(10px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+/* ==========================================
+   SIDEBAR SLIDE
+========================================== */
+
+.sidebar {
+
+    transition:
+        width .25s ease,
+        transform .25s ease;
+
+}
+
+
+/* ==========================================
+   INPUT FOCUS
+========================================== */
+
+.chat-form {
+
+    transition:
+        box-shadow .2s,
+        border-color .2s,
+        transform .2s;
+
+}
+
+.chat-form:focus-within {
+
+    transform: translateY(-1px);
+
+}
+
+
+/* ==========================================
+   SEND BUTTON
+========================================== */
+
+.send-btn {
+
+    transition:
+        transform .15s ease,
+        background .2s ease,
+        box-shadow .2s ease;
+
+}
+
+.send-btn:hover {
+
+    transform: scale(1.08);
+
+    box-shadow: 0 0 18px rgba(255,255,255,.18);
+
+}
+
+.send-btn:active {
+
+    transform: scale(.92);
+
+}
+
+
+/* ==========================================
+   ATTACH BUTTON
+========================================== */
+
+.attach-btn:hover {
+
+    transform: rotate(90deg);
+
+}
+
+
+/* ==========================================
+   HISTORY ITEM
+========================================== */
+
+.history-item {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.history-item::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(255,255,255,.04);
+
+    opacity: 0;
+
+    transition: opacity .18s;
+
+}
+
+.history-item:hover::before {
+
+    opacity: 1;
+
+}
+
+
+/* ==========================================
+   AVATAR
+========================================== */
+
+.avatar {
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+
+}
+
+.profile-btn:hover .avatar {
+
+    transform: scale(1.05);
+
+}
+
+
+/* ==========================================
+   TYPING INDICATOR
+========================================== */
+
+.typing {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
+.typing span {
+
+    width: 8px;
+
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #999;
+
+    animation: typingBounce 1.3s infinite;
+
+}
+
+.typing span:nth-child(2) {
+
+    animation-delay: .15s;
+
+}
+
+.typing span:nth-child(3) {
+
+    animation-delay: .3s;
+
+}
+
+@keyframes typingBounce {
+
+    0%,80%,100%{
+
+        transform: scale(.4);
+
+        opacity:.4;
+
+    }
+
+    40%{
+
+        transform: scale(1);
+
+        opacity:1;
+
+    }
+
+}
+
+
+/* ==========================================
+   FADE IN
+========================================== */
+
+.fade-in {
+
+    animation: fadeIn .25s ease;
+
+}
+
+@keyframes fadeIn {
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+
+/* ==========================================
+   POP
+========================================== */
+
+.pop {
+
+    animation: pop .2s ease;
+
+}
+
+@keyframes pop {
+
+    0%{
+
+        transform:scale(.9);
+
+    }
+
+    70%{
+
+        transform:scale(1.04);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar-thumb {
+
+    transition: background .2s;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background:#666;
+
+}
