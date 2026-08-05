@@ -18,6 +18,38 @@ JavaScript** for learning, experimentation, and portfolio purposes.
 -   Portfolio knowledge base powered by Markdown
 -   Modular JavaScript architecture
 
+  ---
+
+# 🎥 Demo
+
+https://github.com/user-attachments/assets/e1ee1550-9648-496c-a809-bfbe0a7fcce4
+
+---
+
+## 📸 Main Interface
+
+<table>
+<tr>
+<td align="center" width="75%">
+
+### 🖥️ Desktop
+
+<img src="https://github.com/user-attachments/assets/bf9cd9ba-b635-4990-8c23-16591b140bf4" alt="Desktop UI" width="100%">
+
+</td>
+
+<td align="center" width="25%">
+
+### 📱 Mobile
+
+<img src="https://github.com/user-attachments/assets/677aeba7-f107-49c7-8966-e3afcdbbdd67" alt="Mobile UI" width="100%">
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 📁 Project Structure
 
 ``` text
