@@ -1,17 +1,37 @@
 
+# 🎓 Education & Academic Background
 
-## 🎓 Educational Journey
+A timeline of Abin's academic journey, from secondary education to his Bachelor of Computer Science & Engineering.
 
-<pre>
-<b>2022 — 2026</b>  🎓 <b>Bachelor of Computer Science & Engineering</b>
-🏛️ IES College of Engineering • Thrissur, Kerala
-💡 Focus on REST APIs, Web Frameworks & Database Systems
+---
 
-<b>2020 — 2022</b>  🏫 <b>Junior Software Developer (JSD)</b>
-🏛️ Gov. Vocational Higher Secondary School • Thrissur, Kerala
-💡 Foundation in Software Engineering Fundamentals
+### 🎓 2022 — 2026
+## Bachelor of Computer Science & Engineering
 
-<b>2019 — 2020</b>  🏫 <b>Secondary School</b>
-🏛️ Matha H S Mannampetta • Thrissur, Kerala
-💡 Foundation in Sciences, Mathematics, etc
-</pre>
+**🏛️ IES College of Engineering**  
+Thrissur, Kerala
+
+> 💡 **Academic Focus**  
+> REST APIs · Web Frameworks · Database Systems
+
+---
+
+### 💻 2020 — 2022
+## Junior Software Developer (JSD)
+
+**🏫 Gov. Vocational Higher Secondary School**  
+Thrissur, Kerala
+
+> 💡 **Academic Focus**  
+> Software Engineering Fundamentals
+
+---
+
+### 📚 2020
+## Secondary School
+
+**🏫 Matha H S Mannampetta**  
+Thrissur, Kerala
+
+> 💡 **Academic Focus**  
+> Sciences · Mathematics · General Foundations
