@@ -149,7 +149,8 @@ const knowledgeBase = [
             "where has abin worked",
             "where does abin work",
             "resume",
-            "cv"
+            "cv",
+            "work"
         ]
     },
 

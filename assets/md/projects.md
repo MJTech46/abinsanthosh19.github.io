@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<a href="https://github.com/MJTech46/DJANGO-ProtectedText-clone">
+  <img src="/assets/img/project/DJANGO-ProtectedText-clone.png" >
+</a>
+
 ### 🔒 [ProtectedText Clone](https://github.com/MJTech46/DJANGO-ProtectedText-clone)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
@@ -10,6 +14,9 @@ A full-stack web clone of ProtectedText.com with secure note storage, featuring 
 ⭐ **13 Stars** • 🔗 [View Repository](https://github.com/MJTech46/DJANGO-ProtectedText-clone)
 
 ---
+<a href="https://github.com/MJTech46/FLASK-URL-shortener">
+  <img src="/assets/img/project/FLASK-URL-shortener.png">
+</a>
 
 ### 🔗 [Flask URL Shortener](https://github.com/MJTech46/FLASK-URL-shortener)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -19,6 +26,9 @@ A clean web utility engineered to generate shortened URLs while demonstrating co
 ⭐ **11 Stars** • 🔗 [View Repository](https://github.com/MJTech46/FLASK-URL-shortener)
 
 ---
+<a href="https://github.com/MJTech46/PYGAME-Mazer-ball">
+  <img src="/assets/img/project/PYGAME-Mazer-ball.png" >
+</a>
 
 ### 🎮 [Pygame Mazer Ball](https://github.com/MJTech46/PYGAME-Mazer-ball)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pygame](https://img.shields.io/badge/Pygame-111111?style=for-the-badge&logo=python&logoColor=white)
@@ -28,6 +38,9 @@ An interactive 2D arcade game featuring dynamic maze navigation, obstacle collis
 ⭐ **10 Stars** • 🔗 [View Repository](https://github.com/MJTech46/PYGAME-Mazer-ball)
 
 ---
+<a href="https://github.com/MJTech46/PY-rule-based-chatbot">
+  <img src="/assets/img/project/PY-rule-based-chatbot.png" >
+</a>
 
 ### 🤖 [Rule-Based Chatbot](https://github.com/MJTech46/PY-rule-based-chatbot)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -37,6 +50,9 @@ A conversational assistant built with Python utilizing predefined decision trees
 ⭐ **8 Stars** • 🔗 [View Repository](https://github.com/MJTech46/PY-rule-based-chatbot)
 
 ---
+<a href="https://github.com/MJTech46/PY-Offline-TTS">
+  <img src="/assets/img/project/PY-Offline-TTS.png" >
+</a>
 
 ### 🎙️ [Offline Text-To-Speech Engine](https://github.com/MJTech46/PY-Offline-TTS)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -46,6 +62,9 @@ A lightweight TTS utility built with Python 3 designed to generate voice audio c
 🔗 [View Repository](https://github.com/MJTech46/PY-Offline-TTS)
 
 ---
+<a href="https://github.com/MJTech46/MCDataPack-MJCoordinates">
+  <img src="/assets/img/project/MCDataPack-MJCoordinates.png" >
+</a>
 
 ### ⛏️ [Minecraft Coordinate Display Datapack](https://github.com/MJTech46/MCDataPack-MJCoordinates)
 ![Minecraft](https://img.shields.io/badge/Minecraft-388E3C?style=for-the-badge&logo=minecraft&logoColor=white)
