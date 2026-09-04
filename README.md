@@ -1,110 +1,58 @@
-# AI Chat UI Clone
+<div align="center">
 
-A modern **ChatGPT-inspired** chat interface built with **HTML, CSS, and
-JavaScript** for learning, experimentation, and portfolio purposes.
+# 🤖 AI Chat UI Clone
 
-> This project recreates the look and feel of a modern AI chat
-> application. It is **inspired by ChatGPT's interface** and is **not
-> affiliated with or endorsed by OpenAI**.
+A modern, responsive, **ChatGPT-inspired** conversational interface built with vanilla HTML, CSS, and JavaScript. Designed for portfolio showcase, experimentation, and modular frontend development.
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](#)
+
+</div>
+
+---
+
+> ⚠️ **Disclaimer:** This project recreates the visual layout and interaction patterns of a modern AI chat application. It is independently developed for learning and portfolio purposes, and is **not affiliated with or endorsed by OpenAI**.
+
+---
 
 ## ✨ Features
 
--   Responsive desktop, tablet, and mobile layouts
--   Collapsible sidebar
--   Sticky top navigation
--   Auto-growing textarea
--   Markdown rendering (Marked.js)
--   Syntax highlighting (Highlight.js)
--   Portfolio knowledge base powered by Markdown
--   Modular JavaScript architecture
+- 📱 **Fully Responsive** — Seamless navigation optimized across desktop, tablet, and mobile viewports.
+- 🗂️ **Collapsible Navigation** — Sidebar history drawer paired with a sleek sticky top bar.
+- ✍️ **Smart Input Area** — Auto-growing input textarea for seamless multi-line typing.
+- 📝 **Rich Content Support** — Markdown rendering via **Marked.js** and syntax highlighting via **Highlight.js**.
+- 🧠 **Dynamic Knowledge Base** — Markdown-powered portfolio data integration without touching app logic.
+- 🧱 **Modular JavaScript** — Decoupled scripts for high readability and easy scalability.
 
-  ---
+---
 
-# 🎥 Demo
+## 🎥 Preview & Screenshots
+
+### 🎬 Video Demo
 
 https://github.com/user-attachments/assets/e1ee1550-9648-496c-a809-bfbe0a7fcce4
 
 ---
 
-## 📸 Main Interface
+### 📸 User Interface
 
-<table>
-<tr>
-<td align="center" width="75%">
-
-### 🖥️ Desktop
-
-<img src="https://github.com/user-attachments/assets/bf9cd9ba-b635-4990-8c23-16591b140bf4" alt="Desktop UI" width="100%">
-
-</td>
-
-<td align="center" width="25%">
-
-### 📱 Mobile
-
-<img src="https://github.com/user-attachments/assets/677aeba7-f107-49c7-8966-e3afcdbbdd67" alt="Mobile UI" width="100%">
-
-</td>
-</tr>
-</table>
+| 🖥️ Desktop View | 📱 Mobile View |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/bf9cd9ba-b635-4990-8c23-16591b140bf4" alt="Desktop UI" width="100%"> | <img src="https://github.com/user-attachments/assets/677aeba7-f107-49c7-8966-e3afcdbbdd67" alt="Mobile UI" width="100%"> |
 
 ---
 
-## 📁 Project Structure
+## 🧠 Dynamic Knowledge Base
 
-``` text
-/
-┣ assets
-┃ ┣ img
-┃ ┃ ┣ hero.png
-┃ ┃ ┣ photo_2026-08-03_15-25-15.jpg
-┃ ┃ ┣ photo_2026-08-03_15-25-37.jpg
-┃ ┃ ┣ photo_2026-08-03_15-25-59.jpg
-┃ ┃ ┗ photo_2026-08-03_15-31-07.jpg
-┃ ┗ md
-┃ ┃ ┣ education.md
-┃ ┃ ┣ error.md
-┃ ┃ ┣ experience.md
-┃ ┃ ┣ goals.md
-┃ ┃ ┣ interests.md
-┃ ┃ ┣ photos.md
-┃ ┃ ┣ projects.md
-┃ ┃ ┣ skills.md
-┃ ┃ ┣ socials.md
-┃ ┃ ┗ who-is-abin-santhosh.md
-┣ css
-┃ ┣ animations.css
-┃ ┣ chat.css
-┃ ┣ input.css
-┃ ┣ responsive.css
-┃ ┣ sidebar.css
-┃ ┣ style.css
-┃ ┗ topbar.css
-┣ js
-┃ ┣ app.js
-┃ ┣ chat.js
-┃ ┣ codeblock.js
-┃ ┣ knowledge-base.js
-┃ ┣ markdown-loader.js
-┃ ┣ markdown.js
-┃ ┣ sidebar.js
-┃ ┗ textarea.js
-┣ favicon.ico
-┣ index.html
-┣ og-image.png
-┗ README.md
-```
+Markdown files located in `assets/markdown/` are dynamically parsed and fetched via `knowledge-base.js` and `markdown-loader.js`. This decoupled architecture allows portfolio details to be updated instantly without modifying core script logic.
 
-## 🧠 Knowledge Base
-
-Markdown files in `assets/markdown/` are dynamically loaded through
-`knowledge-base.js` and `markdown-loader.js`, making portfolio content
-easy to maintain without changing application logic.
-
+---
 
 ## 👨‍💻 Author
 
 **Abin Santhosh (MJTech46)**
 
--   GitHub: https://github.com/MJTech46
--   Website: https://www.mj46.in
+* 🌐 **Website:** [www.mj46.in](https://www.mj46.in)
+* 🐙 **GitHub:** [@MJTech46](https://github.com/MJTech46)
